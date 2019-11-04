@@ -1,5 +1,9 @@
-# FrameCount
-Tool to help measure FPS and input lag.
+# UE4 FrameCount
+Tool to help measure FPS and input lag of a system running a UE4 based game.
+
+The tool is implemented as a stripped down Unreal Engine 4 game in order to provide
+a baseline FPS and input lag for games built on top of UE4. This may add >= 1 frame
+of input lag depending on how UE4 is buffering frames.
 
 Implemented with Unreal Engine 4.23 in a Blueprint only project.
 
